@@ -71,7 +71,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this at @TheQuantum_Bot if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -207,7 +207,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @TheQuantum_Bot or @EDM115_chat if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` files were extracted from that archive"
@@ -253,6 +253,12 @@ I can extract archives like `zip`, `rar`, `tar`, …
 **Made with ❤️ by @EDM115bots**
 
 **/donate** if you can 🥺
+
+Some Small edits than original repo
+• Removed tag of "Successfully extracted by @unzip_edm115bot 🥰"
+• Increased max extract duration from 45 minutes to 90 minutes
+• Removed donation and vip features 
+  Donate karna hai to edm ke official bot pe jaake Karo 😂😂
     """
 
     HELP_TXT = """
@@ -288,6 +294,7 @@ I can extract archives like `zip`, `rar`, `tar`, …
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
 • **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
 • **Developer :** [EDM115](https://github.com/EDM115)
+• **Hosted by :** [The Quantum](https://t.me/TheQuantum_Official)
 
 **[Rate me ⭐](https://t.me/BotsArchive/2705)**
 Made with ❤️ by **@EDM115bots**
@@ -896,7 +903,6 @@ class Buttons:
             ],
             [
                 InlineKeyboardButton(Messages.STATS_BTN, callback_data="statscallback"),
-                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
             ]
         ]
     )
