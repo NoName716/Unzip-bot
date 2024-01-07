@@ -71,7 +71,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @TheQuantum_Bot if you think this is a mistake, I may unban you
+Report this at if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -256,7 +256,7 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 Some Small edits than original repo
 • Removed tag of "Successfully extracted by @unzip_edm115bot 🥰"
-• Increased max extract duration from 45 minutes to 90 minutes
+• Increased max extract duration from 45 minutes to 120 minutes
 • Removed donation and vip features 
   Donate karna hai to edm ke official bot pe jaake Karo 😂😂
     """
